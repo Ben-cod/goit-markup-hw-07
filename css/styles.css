@@ -55,6 +55,7 @@ img {
 	text-decoration: none;
 }
 /* Header */
+
 .first-logo {
 	/* margin-right: 76px; */
 	font-family: "Raleway", sans-serif;
@@ -77,7 +78,7 @@ img {
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-  }
+}
 
 .header-nav {
 	box-sizing: border-box;
@@ -92,16 +93,9 @@ img {
 	align-items: center;
 	justify-content: space-between;
 }
-.page-nav{
+.page-nav {
 	display: flex;
 	align-items: center;
-}
-.site-list{
-	display: none;
-}
-.nav-address{
-	/* text-align: left; */
-	display: none;
 }
 
 .header-nav .link:hover,
@@ -109,8 +103,6 @@ img {
 	color: var(--background-focus);
 }
 .mobile-burger-open {
-	
-	
 }
 .mobile-burger-icon {
 }
@@ -135,7 +127,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
-	margin-bottom: 56px;
+	margin-bottom: 72px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
@@ -169,34 +161,40 @@ img {
 
 /* Expirienc */
 
-
 .section {
 	padding-top: 96px;
 	padding-bottom: 96px;
 }
 .expirienc-text {
 	gap: 24px;
-	
 }
-.section-primery{
+.section-primery {
 	width: 100%;
 }
-.section-primery:not(:last-child){
+.section-primery:not(:last-child) {
 	margin-bottom: 72px;
 }
-.expirienc{
+.expirienc {
 	display: none;
 }
-
-
+.expirienc-titl {
+	margin-bottom: 8px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #2e2f42;
+}
 
 .section-titl {
 	text-align: center;
 	margin-bottom: 8px;
 
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.2;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
 	color: var(--brend-color);
 }
 .section-text {
@@ -205,43 +203,24 @@ img {
 	color: var(--color-paragraf);
 	gap: 24px;
 }
-
 /* About */
-.about-content {
-	padding-top: 0;
-	padding-bottom: 120px;
-}
 .section-about {
 	margin-bottom: 72px;
-
 	text-align: center;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.11;
-	color: var(--brend-color);
 }
-.team-title {
-}
-.primery-about {
-	display: flex;
-	gap: 24px;
-}
-.secondary-about {
-	width: calc((100% - 48px) / 3);
-}
+
 /* Team */
 .section-fon {
 	padding-top: 96px;
 	padding-bottom: 96px;
 	background: var(--section-fon-color);
 }
- .primery-team {
+.primery-team {
 	display: flex;
 	flex-wrap: wrap;
-	
+
 	gap: 72px;
-	
-} 
+}
 
 .section-team {
 	display: flex;
@@ -250,7 +229,7 @@ img {
 }
 .team-content {
 	text-align: center;
-	
+
 	padding: 32px 16px;
 
 	background: #ffffff;
@@ -265,7 +244,6 @@ img {
 	margin-top: 8px;
 }
 .social-list-item {
-	
 	justify-content: center;
 }
 .social-list-link {
@@ -280,6 +258,15 @@ img {
 	transition-duration: 250ms;
 	transition-timing-function: var(--cubic);
 }
+.section-titl {
+	text-align: center;
+	margin-bottom: 8px;
+
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--brend-color);
+}
 .social-list-icon {
 }
 .social-list-link:hover,
@@ -292,9 +279,9 @@ img {
 	padding-top: 114px;
 	padding-bottom: 136px;
 }
-.section-about {
-}
+
 .customers-title {
+	text-align: center;
 	margin-bottom: 72px;
 }
 
@@ -305,13 +292,14 @@ img {
 	gap: 24px;
 }
 .customers-list-item {
-	width: calc((100% - 16px) / 2);
+	flex-wrap: wrap;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	fill: #8e8f99;
 	max-width: 168px;
 	height: 88px;
+	width: calc((100% - 16px) / 2);
 }
 .customers-list-link:hover,
 .customers-list-link:focus {
@@ -323,6 +311,7 @@ img {
 .customers-list-link {
 	border-radius: 4px;
 	border: 1px solid #8e8f99;
+	flex-wrap: wrap;
 	display: flex;
 	align-items: center;
 	color: #8e8f99;
@@ -350,7 +339,7 @@ img {
 	margin-top: 16px;
 	padding-left: 80px;
 	max-width: 264px;
-	
+
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--footer-text-color);
@@ -408,10 +397,8 @@ img {
 
 .footer-form-box {
 	display: block;
-	
 }
 .footer-form-text {
-	
 	margin-bottom: 16px;
 	font-weight: 500;
 	font-size: 16px;
@@ -441,7 +428,7 @@ img {
 	min-width: 165px;
 	/* display: flex; */
 	align-items: center;
-	
+
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.04em;
@@ -466,6 +453,7 @@ img {
 /* Modal */
 
 .backdrop {
+	
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -490,7 +478,7 @@ img {
 	padding-bottom: 20px;
 	position: relative;
 	display: flex;
-	width: 408px;
+	width: 95%;
 
 	top: 50%;
 	left: 50%;
@@ -604,7 +592,7 @@ img {
 	outline: none;
 	display: block;
 	margin-top: 4px;
-	width: 360px;
+	width: 100%;
 	height: 120px;
 	font-size: 12px;
 	line-height: 1.33;
