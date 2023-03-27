@@ -1,9 +1,13 @@
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) {
     .container { max-width: 766px; } 
     
     .nav-item:not(:last-child) {
         margin-right: 40px;
     }
+    .first-logo {
+        margin-right: 76px;
+       
+   }
    
     .page-nav {
         
@@ -57,7 +61,7 @@
         color: var(--color-paragraf);
         font-style: normal;
         margin-left: auto;
-        margin-right: 40px;
+      
     }
     .header-tel {
         font-size: 16px;
@@ -68,14 +72,82 @@
     .mobile-burger-open {
 	    display: none;
     }
+/* HERO */
+
+
+
+.hero-title {
+	max-width: 494px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 56px;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.1;
+	color: var(--primery-title-color);
+}
+
 /* Expirienc */
 .expirienc-text {
-    gap: 72px 24px;
-    
+	gap: 72px 24px;
+	
 }
-    .section-primery {
+
+.section-primery {
 	display: inline-block;
 	width: calc((100% - 24px) / 2);
-    }
+    gap: 72px 24px;
+}
+/* Team */
+.section-fon {
+	padding-top: 96px;
+	padding-bottom: 96px;
+	background: var(--section-fon-color);
+}
+.primery-team {
+	display: flex;
+	gap: 24px;
+}
+
+.section-team {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	width: calc((80% - 24px) / 2);
+}
+.team-content{
     
-    } 
+}
+/* Customer */
+.customers-list-item {
+	width: calc((100% - 16px) / 2);
+	
+}
+
+
+
+
+
+/* FOOTER */
+.footer-primery {
+	display: flex;
+}
+.footer-list {
+	display: flex;
+	gap: 16px;
+}
+.footer-list-item {
+	display: flex;
+}
+.footer-form-box {
+	display: block;
+	flex-wrap: wrap;
+}
+.footer-form-input{
+   max-width: 264px; 
+}
+.footer-form-btn{
+    margin-left: 24px;
+}
+ }
