@@ -122,7 +122,9 @@
 
 	/* FOOTER */
 	.footer-primery {
+		gap: 0 24px;
 		display: flex;
+		flex-wrap: wrap;
 	}
 	.footer-list {
 		display: flex;
@@ -135,11 +137,19 @@
 		display: block;
 		flex-wrap: wrap;
 	}
+	.footer-form-text{
+		text-align: start;
+	}
 	.footer-form-input {
-		max-width: 264px;
+		margin-bottom: 0;
+		width: 264px;
 	}
 	.footer-form-btn {
+		
 		margin-left: 24px;
+	}
+	.form{
+		display: flex;
 	}
 }
 @media screen and (max-width: 1199px){
