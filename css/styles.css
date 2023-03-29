@@ -119,7 +119,7 @@ img {
 	padding-top: 188px;
 	padding-bottom: 188px;
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-		url(../images/people-office.jpg);
+		url(../images/mobile-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -687,7 +687,7 @@ img {
 	width: 100vw;
 	height: 100vh;
 	padding: 32px;
-	background-color: #3f51b5;
+	background-color: #fff;
 	z-index: 999;
   
 	transform: translateX(100%);
@@ -698,11 +698,15 @@ img {
 	transform: translateX(0);
   }
   
-  .menu-container .menu-toggle {
+  /* .menu-container .menu-toggle {
 	position: absolute;
-	top: 16px;
+	top: 24px;
 	right: 16px;
 	color: #fff;
+	
+  } */
+  .burger-icon{
+	border: none;
   }
   
   .mobile-menu {
