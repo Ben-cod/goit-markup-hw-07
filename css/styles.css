@@ -123,6 +123,14 @@ img {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+@media (min-device-pixel-ratio: 2),(min-resolution: 192px), (min-resolution: 2dppx) { 
+	.hero {
+	
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+			url(../images/mobile-bg-2x.jpg);
+	   
+	} 
+}
 
 .hero-title {
 	max-width: 318px;
@@ -508,7 +516,7 @@ img {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 	transition: background-color var(--background-focus);
-	transition-duration: 250ms;
+	/* transition-duration: 250ms; */
 	transition-timing-function: var(--cubic);
 }
 .modal-close_btn:hover,
@@ -686,7 +694,7 @@ img {
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	padding: 32px;
+	padding: 40px;
 	background-color: #fff;
 	z-index: 999;
   
@@ -698,13 +706,13 @@ img {
 	transform: translateX(0);
   }
   
-  /* .menu-container .menu-toggle {
+   .menu-container .menu-toggle {
 	position: absolute;
 	top: 24px;
 	right: 16px;
 	color: #fff;
 	
-  } */
+  } 
   .burger-icon{
 	border: none;
   }
@@ -718,7 +726,17 @@ img {
   .mobile-menu .link {
 	display: block;
 	padding: 10px;
-	color: #fff;
+	font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+
+
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+
+
+color: #2E2F42;
 	text-decoration: none;
   }
 /* Modal */
