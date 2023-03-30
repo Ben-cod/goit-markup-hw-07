@@ -702,6 +702,7 @@ img {
 .menu-content{
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 	
 }
 
@@ -743,7 +744,9 @@ img {
 .burger-link{
 	margin-bottom: 40px;
 }
-
+.menu-contacts{
+	color: #404BBF;
+}
 .mobile-menu .link {
 	
 	display: block;
@@ -758,6 +761,9 @@ img {
 	color: #2e2f42;
 	text-decoration: none;
 }
+.menu-contacts{
+	color: #404BBF;
+}
 .mobile-wrap{
 	
 	margin-top: auto;
@@ -767,6 +773,7 @@ img {
 
 }
 .buger-list {
+	margin-top: 40px;
 }
 .burger-mail {
 	font-style: normal;
@@ -784,7 +791,7 @@ img {
 	line-height: 1.66;
 	font-style: normal;
 
-	margin-bottom: 40px;
+	
 
 	color: #4d5ae5;
 }
