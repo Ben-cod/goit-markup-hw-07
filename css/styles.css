@@ -523,6 +523,7 @@ img {
 	fill: currentColor;
 }
 .modal-close-btn-icon {
+	
 	transition: fill #ffffff;
 	transition-duration: 250ms;
 	transition-timing-function: var(--cubic);
@@ -627,7 +628,7 @@ img {
 	align-items: center;
 	padding-right: 10px;
 
-	font-size: 12px;
+	font-size: 10px;
 	line-height: 1.33;
 	letter-spacing: 0.04em;
 	color: #757575;
@@ -655,7 +656,7 @@ img {
 	border: 1px solid #4d5ae5;
 }
 .modal-police-box {
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 1.33;
 	letter-spacing: 0.04em;
 	color: #4d5ae5;
@@ -744,9 +745,7 @@ img {
 .burger-link{
 	margin-bottom: 40px;
 }
-.menu-contacts{
-	color: #404BBF;
-}
+
 .mobile-menu .link {
 	
 	display: block;
@@ -761,7 +760,7 @@ img {
 	color: #2e2f42;
 	text-decoration: none;
 }
-.menu-contacts{
+.menu-contacts {
 	color: #404BBF;
 }
 .mobile-wrap{
