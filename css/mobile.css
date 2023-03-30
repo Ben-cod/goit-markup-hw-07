@@ -2,7 +2,9 @@
     .container { 
     max-width: 428px; 
     } 
-    
+    .burger-tel{
+        font-size: 36px;
+    }
 
     }
     @media screen and (max-width: 767px) {

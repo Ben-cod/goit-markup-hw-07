@@ -730,11 +730,13 @@ img {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	display: flex; 
+	flex-direction: column;
 }
 
 .mobile-menu .link {
 	display: block;
-	padding: 10px;
+	margin-bottom: 40px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
@@ -744,6 +746,10 @@ img {
 
 	color: #2e2f42;
 	text-decoration: none;
+}
+.mobile-wrap{
+	margin-top: auto;
+
 }
 .mobile-burger-link {
 }
@@ -761,13 +767,41 @@ img {
 
 .burger-tel {
 	font-weight: 600;
-	font-size: 36px;
+	font-size: 24px;
 	line-height: 40px;
 	font-style: normal;
 
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 
 	color: #4d5ae5;
+}
+.mobile-social {
+	display: flex;
+	
+}
+.mobile-list {
+	display: flex;
+	justify-content: center;
+	
+	gap: 56px;
+	margin-top: 48px;
+}
+
+.mobile-list-item {
+
+	
+}
+.mobile-list-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	fill: #F4F4FD;
+	background: var(--icon-background);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.mobile-list-icon {
 }
 /* Portfolio */
 .portfolio-section {
