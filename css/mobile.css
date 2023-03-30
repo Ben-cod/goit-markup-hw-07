@@ -5,6 +5,13 @@
     .burger-tel{
         font-size: 36px;
     }
+    .mobile-list {
+        
+        
+        gap: 56px;
+       
+    }
+    
 
     }
     @media screen and (max-width: 767px) {
