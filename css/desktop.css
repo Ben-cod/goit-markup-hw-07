@@ -6,7 +6,7 @@
 		display: flex;
 	}
 	.current{
-		padding-bottom: 32px;
+		padding-bottom: 31px;
 	}
 	
 	.header-tel{
@@ -18,10 +18,7 @@
 		font-size: 16px;
 		line-height: 1.5;
 	}
-	.header-nav{
-		padding-top: 24px;
-		padding-bottom: 28px;
-	}
+	
 
 	/* HERO */
 
@@ -52,6 +49,10 @@
 
 		margin-bottom: 48px;
 	}
+	.header-nav {
+		padding-top: 24px;
+		padding-bottom: 28px;
+	}
 	/* Expirienc */
 	.sectio {
 		padding-top: 120px;
@@ -71,6 +72,7 @@
 		background: #f4f4fd;
 		border-radius: 4px;
 	}
+	
 	.section-titl {
 		font-weight: 500;
 		font-size: 20px;

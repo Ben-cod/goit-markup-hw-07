@@ -14,11 +14,7 @@
 		display: flex;
 		align-items: center;
 	}
-    .header-nav {
-       
-        padding-top: 24px;
-        padding-bottom: 24px;
-    }
+    
 
 	.site-list {
 		display: flex;
@@ -37,7 +33,7 @@
 	.current {
         
 		
-		padding-bottom: 35px;
+		padding-bottom: 34px;
 		color: var(--background-focus);
 	}
 	.current::after {
@@ -49,7 +45,6 @@
 		left: 0;
 		width: 100%;
 		height: 4px;
-
 		background: var(--background-focus);
 		border-radius: 2px;
 	}
