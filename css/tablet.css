@@ -14,6 +14,11 @@
 		display: flex;
 		align-items: center;
 	}
+    .header-nav {
+       
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
 
 	.site-list {
 		display: flex;
@@ -30,11 +35,13 @@
 	}
 
 	.current {
-		padding-top: 24px;
-		padding-bottom: 28px;
+        
+		
+		padding-bottom: 35px;
 		color: var(--background-focus);
 	}
 	.current::after {
+        
 		content: "";
 		display: block;
 		position: absolute;
@@ -55,15 +62,15 @@
 		display: block;
 	}
 	.header-mail {
-		font-size: 16px;
-		line-height: 1.5;
+		font-size: 12px;
+		line-height: 1.33;
 		color: var(--color-paragraf);
 		font-style: normal;
 		margin-left: auto;
 	}
 	.header-tel {
-		font-size: 16px;
-		line-height: 1.5;
+		font-size: 12px;
+		line-height: 1.33;
 		color: var(--color-paragraf);
 		font-style: normal;
 	}
@@ -73,7 +80,8 @@
 	
 	/* HERO */
     .hero {
-        
+        padding-top: 112;
+        padding-bottom: 108;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/tablet-bg.jpg);
        
@@ -94,18 +102,27 @@
 	}
 
 	/* Expirienc */
-	.expirienc-text {
-		gap: 72px 24px;
-	}
+	
+		.expirienc-text {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+           
+        }
+	
 	.expirienc-titl {
 		text-align: start;
 	}
 
 	.section-primery {
+        
 		display: inline-block;
 		width: calc((100% - 24px) / 2);
-		gap: 72px 24px;
+		gap:  24px;
 	}
+    .section-primery:not(:last-child) {
+        margin-bottom: 0;
+    }
 
 	/* Team */
 	.container-m {
@@ -120,6 +137,7 @@
 		display: flex;
 		gap: 24px;
 	}
+    
 
 	.section-team {
 		display: flex;
@@ -140,10 +158,23 @@
 		gap: 0 24px;
 		display: flex;
 		flex-wrap: wrap;
+        text-align: start;
+        
 	}
+    .footer-prim{
+        align-items: flex-start;
+    }
+    
 	.footer-list {
 		display: flex;
 		gap: 16px;
+	}
+    .footer-social-text{
+        justify-content: flex-start;
+    }
+    .footer-social {
+        
+		margin: 0;
 	}
 	.footer-list-item {
 		display: flex;

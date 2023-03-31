@@ -5,8 +5,22 @@
 	.nav-address {
 		display: flex;
 	}
-	.header-mail {
+	.current{
+		padding-bottom: 32px;
+	}
+	
+	.header-tel{
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.header-mail{
 		margin-right: 40px;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.header-nav{
+		padding-top: 24px;
+		padding-bottom: 28px;
 	}
 
 	/* HERO */
@@ -115,6 +129,7 @@
 	}
 	.footer-prim {
 		text-align: start;
+		margin: 0;
 	}
 	.footer-text {
 		text-align: start;
@@ -134,8 +149,7 @@
 	
 		margin-bottom: 16px;
 	}
-	.footer-social {
-	}
+	
 	
 	.footer-list {
 		display: flex;
