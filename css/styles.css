@@ -912,9 +912,7 @@ img {
 	transform: translateY(0);
 	opacity: 1;
 }
-.portfolio {
 
-}
 
 .galery-fon {
 	padding: 32px 16px 32px 16px;
@@ -934,17 +932,10 @@ img {
 	line-height: 1.5;
 	color: var(--color-paragraf);
 }
-.portfolio {
-	display: flex;
-	justify-content: center;
 
-	margin-bottom: 72px;
-}
 /* portfolio-button */
 
-.portfolio-but:not(:last-child) {
-	margin-right: 24px;
-}
+
 .portfolio-button {
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;

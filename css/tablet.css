@@ -192,7 +192,28 @@
 	.form{
 		display: flex;
 	}
+	/* Portfolio */
+	
+	.portfolio {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 64px;
+		gap: 24;
+	}
+	.portfolio-but:not(:last-child) {
+		margin-right: 24px;
+	}
+	.galery-content {
+		
+		gap: 72px 24px;
+	}
+	.galery-item {
+		width: calc((100% - 24px) - 2);
+	}
+		
 }
+
 @media screen and (max-width: 1199px){
     .about-content{
         display: none;
@@ -201,5 +222,5 @@
     .modal {
         max-width: 408px;
     }
-}
-    
+	
+}  

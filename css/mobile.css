@@ -26,5 +26,12 @@
         .nav-address{
             display: none;
         }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-bottom: 48px;
+            gap: 16px 24px;
+            }
     
         }
